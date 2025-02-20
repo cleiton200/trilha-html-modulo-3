@@ -3,9 +3,16 @@ body, html {
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-ul { list-style: none; padding-left: 5px; }
-a { color:blue; text-decoration: none;}
-.bar {
+ul { 
+    list-style: none; 
+    padding-left: 5px; 
+}
+
+a { 
+    color:blue; 
+    text-decoration: none;}
+
+    .bar {
     background-color: #f9f9fb;
     padding:15px;
     border-top: solid 1px #cdcdcd;
@@ -22,7 +29,7 @@ a { color:blue; text-decoration: none;}
     padding-left: 1rem;
     padding-right: 1rem;
 }
-.footer {
+footer {
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
 }
@@ -35,4 +42,9 @@ a { color:blue; text-decoration: none;}
 }
 figure {
     text-align: center;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
